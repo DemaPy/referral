@@ -1,3 +1,63 @@
 [
-
+  {
+    "id": 1,
+    "country": "es",
+    "email": "ceuneuttuzehei-4400@yopmail.com",
+    "date": "25.06.23",
+    "sum": "2 000 €",
+    "bonus": "20 €",
+    "subreferrals": [
+      {
+        "id": 1,
+        "country": "es",
+        "email": "deisseippaper1495@yopmail.com",
+        "date": "25.06.23",
+        "sum": "2 000 €",
+        "bonus": "20 €"
+      },
+      {
+        "id": 2,
+        "country": "es",
+        "email": "ceuneuttuzehei-4400@yopmail.com",
+        "date": "25.06.23",
+        "sum": "2 000 €",
+        "bonus": "20 €"
+      }
+    ]
+  },
+    {
+    "id": 2,
+    "country": "uk",
+    "email": "ceuneuttuzehei-4400@yopmail.com",
+    "date": "25.06.23",
+    "sum": "2 000 €",
+    "bonus": "20 €",
+    "subreferrals": [
+      {
+        "id": 1,
+        "country": "es",
+        "email": "deisseippaper1495@yopmail.com",
+        "date": "25.06.23",
+        "sum": "2 000 €",
+        "bonus": "20 €"
+      },
+      {
+        "id": 2,
+        "country": "es",
+        "email": "ceuneuttuzehei-4400@yopmail.com",
+        "date": "25.06.23",
+        "sum": "2 000 €",
+        "bonus": "20 €"
+      }
+    ]
+  },
+    {
+    "id": 3,
+    "country": "es",
+    "email": "ceuneuttuzehei-4400@yopmail.com",
+    "date": "25.06.23",
+    "sum": "2 000 €",
+    "bonus": "20 €",
+    "subreferrals": []
+  }
 ]

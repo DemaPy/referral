@@ -3,8 +3,8 @@ import ReferralBoard from "./ReferralBoard";
 import ReferralCard from "./ReferralCard";
 import Referral from "./Referral";
 import { Pagination, PaginationItem } from "@mui/material";
-import IRightArrow from "../assets/right.svg"
-import ILeftArrow from "../assets/left.svg"
+import IRightArrow from "../assets/right.svg";
+import ILeftArrow from "../assets/left.svg";
 
 const MyReferrals = () => {
   const [referrals, setReferrals] = useState([]);
@@ -39,17 +39,20 @@ const MyReferrals = () => {
       <div>
         <ReferralBoard />
       </div>
-      <div className="flex justify-center items-center py-[306px]">
-        {referrals?.length > 0 ? (
-          referrals.map((referral) => (
+
+      {referrals?.length > 0 ? (
+        <div className="max-h-[500px] h-full overflow-y-auto">
+          {referrals.map((referral) => (
             <Referral key={referral.id} {...referral} />
-          ))
-        ) : (
+          ))}
+        </div>
+      ) : (
+        <div className="flex justify-center items-center py-[306px]">
           <p className="text-3xl font-red_hat font-semibold text-white">
             No referrals yet
           </p>
-        )}
-      </div>
+        </div>
+      )}
       <div className="flex items-center justify-center">
         <Pagination
           className="text-white!important"
